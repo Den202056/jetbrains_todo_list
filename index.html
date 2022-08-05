@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List</title>
+</head>
+<body>
+
+    <header class="header">
+        <h1>To-Do List</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <form id="todo-list-form">
+                <input id="input-task" type="text" placeholder="Add new task" required>
+                <button id="add-task-button">Add task</button>
+                <ul id="task-list">
+<!--                    <li data-uid="1"><input type="checkbox"><span class="task">Email David</span><button class="delete-btn">x</button></li>-->
+<!--                    <li data-uid="2"><input type="checkbox"><span class="task">Create ideal user personal guide</span><button class="delete-btn">x</button></li>-->
+<!--                    <li data-uid="3"><input type="checkbox"><span class="task">Set up A/B test</span><button class="delete-btn">x</button></li>-->
+                </ul>
+            </form>
+        </div>
+    </main>
+
+    <template id="task-template">
+        <li data-uid="random"><input type="checkbox"><span class="task"></span><button class="delete-btn">x</button></li>
+    </template>
+
+<script src="script.js"></script>
+</body>
+</html>
